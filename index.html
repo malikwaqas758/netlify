@@ -1,37 +1,96 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #1abc9c; /* green background */
+  color: white; /* white text color */
+}
 
-You can use the [editor on GitHub](https://github.com/malikwaqas758/netlify/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Apk Finds](https://apkfinds.com) to rebuild the pages in your site, from the content in your Markdown files.
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
 
-### Markdown
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
 
-```markdown
-Syntax highlighted code block
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-# Header 1
-## Header 2
-### Header 3
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #f1f1f1; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
 
-- Bulleted
-- List
+/* Main column */
+.main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+}
+</style>
+</head>
+<body>
 
-1. Numbered
-2. List
+<div class="header">
+  <h1>Spotify premium Apk</h1>
+  <p>A website created by Malik Waqas.</p>
+</div>
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+  <a href="#" class="right">Home</a>
+</div>
+<div class="row">
+  <div class="side">...</div>
+  <div class="main">
+  	<h1> Spotify premium Apk</h1>
+  	<p>You can download Spotify premium apk from <a href="https://apkfinds.com/spotify-premium-apk">APk Finds</a></p>
+  </div>
+</div>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/malikwaqas758/netlify/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
